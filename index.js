@@ -40,7 +40,6 @@ function actionApplyer(startInt, arrFunc) {
     let memo = startInt
     arrFunc.forEach(element => {
        memo = element(memo)
-       return memo
     });
     return memo
 }
