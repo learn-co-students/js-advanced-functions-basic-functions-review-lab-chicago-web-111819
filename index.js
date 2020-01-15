@@ -31,8 +31,8 @@ Calculator.divide = function(x,y) {
     return x / y
 }
 
-function actionApplyer(int,funcArr) {
-    let i = int
+function actionApplyer(start,funcArr) {
+    let i = start
     funcArr.forEach( function(f) {
          i = f(i)
         })
